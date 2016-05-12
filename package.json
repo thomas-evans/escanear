@@ -4,7 +4,9 @@
   "description": "An exploration of speech to text services.",
   "main": "index.js",
   "scripts": {
-    "capture": "node src/index.js"
+    "capture": "node src/index.js",
+    "clean": "rm -rf data ; rm -rf src/properties.js",
+    "init": "mkdir data ; mkdir data/mp3 ; echo \"var properties={scannerURI:'http://TOP_SECRET_URL.mp3'};module.exports=properties;\" > src/properties.js"
   },
   "repository": {
     "type": "git",
