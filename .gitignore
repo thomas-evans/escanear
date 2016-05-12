@@ -50,3 +50,4 @@ Temporary Items
 *.mp3
 .vscode/settings.json
 src/properties.js
+npm-debug.log
