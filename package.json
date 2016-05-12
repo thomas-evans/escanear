@@ -1,0 +1,25 @@
+{
+  "name": "escanear",
+  "version": "0.0.1",
+  "description": "An exploration of speech to text services.",
+  "main": "index.js",
+  "scripts": {
+    "capture": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomas-evans/escanear.git"
+  },
+  "keywords": [
+    "speech-to-text"
+  ],
+  "author": "Thomas Evans (Add your name before committing)",
+  "license": "CC-BY-NC-ND-4.0",
+  "bugs": {
+    "url": "https://github.com/thomas-evans/escanear/issues"
+  },
+  "homepage": "https://github.com/thomas-evans/escanear#readme",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
