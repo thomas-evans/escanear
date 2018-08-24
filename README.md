@@ -1,16 +1,19 @@
 ## Overview
+
 What are we doing?
 
 ## Development setup
+
 Here are the steps to get involved with development.
 
+### Install
 
-###Install
 ```shell
 npm i
 ```
 
-###Initialize
+### Initialize
+
 Create dev directories and prop file.
 
 ```shell
@@ -20,7 +23,8 @@ npm run init
 
 Now update src/properties.js with the correct URL to your audio file.
 
-###Clean up
+### Clean up
+
 Do cleanup the dev directories and prop file run a clean.
 
 ```shell
